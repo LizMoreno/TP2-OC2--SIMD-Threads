@@ -9,4 +9,8 @@ Recibe:
 
 ejemplo de la ejecucion:
 
--- ./a "/home/lapassesungs/Descargas/TP2-OC2--SIMD-Threads-branchLizz/imagenes/" "disney.rgb" "mascara640.rgb" 640 360
+
+```
+./a "/home/lapassesungs/Descargas/TP2-OC2--SIMD-Threads-branchLizz/imagenes/" "disney.rgb" "mascara640.rgb" 640 360
+```
+
