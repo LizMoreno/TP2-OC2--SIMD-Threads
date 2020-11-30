@@ -15,6 +15,8 @@ cant );
 * Función enmascarar_asm ( unsigned char *a, unsigned char *b, unsigned char *mask,
 int cant);
 
+El codigo se encuentra [Aqui.](https://github.com/LizMoreno/TP2-OC2--SIMD-Threads/tree/master/funciones)
+
 ### Ejecucion del programa:
 Una primera version del programa ejecuta ambas funciones devolviendo las imagenes nuevas generadas.
 
@@ -33,6 +35,8 @@ para las pruebas realizadas y gráficos comparativos.
 
 ### Ejecucion del programa:
 Implementamos un programa que toma in directorio del en el que se encuentran las imagenes. De esta forma contamos con la logica necesaria para procesar un conjunto de imagenes utilizando las funciones *enmascarar_c* y *enmascarar_asm*.
+
+El codigo se encuentra [Aqui.](https://github.com/LizMoreno/TP2-OC2--SIMD-Threads/tree/master/desarollo-lineal)
 
 #### Implementacion en C
 
@@ -76,6 +80,8 @@ ejemplo:
 * ./main_lineal_nasm "/home/lapassesungs/Descargas/TP2-OC2--SIMD-Threads-branchLizz/imagenes/" "disney.rgb" "mascara640.rgb" 640 360
 
 ### Desarrollo con hilos
+En esta ocasion contamos con hilos para el procesamiento de las imagenes que se encuentran en el directorio.
+El codigo se encuentra [Aqui.](https://github.com/LizMoreno/TP2-OC2--SIMD-Threads/tree/master/desarrollo-hilos)
 
 #### Implementacion en C
 El programa actua similar a su respectuva implementacion en de forma lineal, solo que al recuperar 3 archivos de la carpeta, dispara un hilo que se encarga de procesar las imagenes, mientras continua recorriendo los archivos. Asi, cada 3 archivos/imagenes encontados dispara un hilo para que procese esa informacion.
@@ -99,5 +105,9 @@ Demostracion de como seria el llamado:
 ```
 ejemplo:
 * ./main_hilos_asm "/home/lapassesungs/Descargas/TP2-OC2--SIMD-Threads-branchLizz/imagenes/" "disney.rgb" "mascara640.rgb" 640 360
+
+
+## Resultados de las comparaciones
+
 
 
