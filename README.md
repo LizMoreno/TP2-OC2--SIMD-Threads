@@ -113,18 +113,23 @@ Para analizar los distintos tiempos sobre los procesamientos de imagenes tomamos
 Los resultados arrojados por cada proceso
 
 1. De forma lineal en C:
+
 ![alt text](https://github.com/LizMoreno/TP2-OC2--SIMD-Threads/blob/master/img-sources/tiempo-lineal-c.png)
 
 2. Utilizando hilos en C:
+
 ![alt text](https://github.com/LizMoreno/TP2-OC2--SIMD-Threads/blob/master/img-sources/tiempo-hilos-c.png)
 
 3. De forma lineal en ASM:
+
 ![alt text](https://github.com/LizMoreno/TP2-OC2--SIMD-Threads/blob/master/img-sources/tiempo-lineal-asm.png)
 
 4. Utilizando hilos en ASM:
+
 ![alt text](https://github.com/LizMoreno/TP2-OC2--SIMD-Threads/blob/master/img-sources/tiempo-hilos-asm.png)
 
 ### Comparaciones
+
 En retrospectiva, comparando el tiempo entre C y ASM marca una notable diferencia. Por un lado los procesos en ASM son mucho mas rapidos que los procesos en C. Algo que nos sorprende es como el proceso que recorre de forma lineal demostro ser mas veloz que el proceso que utilizaba paralelismo para el procesamiento de imagenes. Podemos considerar que nuestra implementacion untroduzco un overhead por sobre las tareas.
 
 A continuacion tenemos un diagrama para comparar las pruebas realizadas:
